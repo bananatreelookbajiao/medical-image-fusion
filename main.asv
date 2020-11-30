@@ -1,9 +1,0 @@
-clc;clear;close;
-%一些说明 2020/11/30
-% 1 此程序作用为无色差彩色图像亮度增强 仅作为科研学习交流 不得用于其他用途
-2 
-p=1;
-image=imread('./test image/Mild Alzheimer1.jpg');
-figure;imshow(image);
-enhencement_image=enhancement(image,p);
-figure;imshow(enhencement_image);
